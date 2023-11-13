@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
 
             if (selectedId == -1) {
                 errorTextView.setText("Please select a laptop");
+                resultTextView.setText("");
+                return;
             } else {
                 errorTextView.setText("");
             }
